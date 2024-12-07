@@ -3,15 +3,11 @@
 ## Overview
 This project aims to predict housing prices using a dataset from Iowa. It explores fundamental data science workflows, including data exploration, feature engineering, model training, and evaluation. The project compares the performance of Decision Tree and Random Forest regressors to identify the best predictive model.
 
-## Directory Structure
-. ├── data/ │ └── iowaHousing.csv # Dataset file ├── src/ │ ├── data_processing.py # Data loading and exploration functions │ ├── feature_engineering.py # Feature selection and preparation functions │ ├── model_training.py # Model training and evaluation functions │ ├── visualization.py # Visualization utilities │ └── main.py # Main script to execute the workflow ├── notebooks/ │ └── exploratory_analysis.ipynb # Jupyter Notebook for exploratory data analysis ├── reports/ │ └── assignment_report.pdf # Final submission report ├── requirements.txt # Python dependencies └── README.md # Project documentation
-
 
 ## How to Run the Project
 1. Clone the repository or download the files to your local system.
 2. Place the dataset (`iowaHousing.csv`) in the `data/` directory.
 3. Install the required dependencies:
-   
-   pip install -r requirements.txt
-
-python src/main.py
+  > pip install -r requirements.txt
+Type and run: 
+  > python main.py
